@@ -1,0 +1,17 @@
+{
+  "name": "twitter-repost",
+  "version": "1.0.0",
+  "description": "twitter bot that reposts tweets from a list of users",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alanfvn",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "twitter-api-v2": "^1.5.1"
+  }
+}
